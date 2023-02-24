@@ -19,10 +19,11 @@ const RootStyle = styled('div')(({ theme }) => ({
 }));
 
 
-const navigate = useNavigate()
 // ----------------------------------------------------------------------
 
 export default function MarketingLandingHero() {
+  
+const navigate = useNavigate()
   return (
     <RootStyle>
       <Container>

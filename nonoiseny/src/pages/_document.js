@@ -6,7 +6,7 @@ import { CacheProvider } from '@emotion/react';
 import createCache from '@emotion/cache';
 import createEmotionServer from '@emotion/server/create-instance';
 // theme
-import palette from '../src/theme/palette';
+import palette from '../theme/palette';
 
 // ----------------------------------------------------------------------
 

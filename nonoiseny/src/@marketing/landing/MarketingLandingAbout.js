@@ -6,7 +6,8 @@ import { Grid, Stack, Container, Typography, Button, Divider } from '@mui/materi
 // utils
 import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import { Iconify, Image } from '../../../components';
+import {Iconify} from '../../../components/Iconify';
+import {Image} from '../../../components/Image';
 
 // ----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Signup.css';
+
 import Navbar from './Navbar'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'

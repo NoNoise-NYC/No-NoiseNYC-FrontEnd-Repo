@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 // utils
-import { getAllPosts } from '../../src/utils/get-mardown/marketing/posts';
-import { getAllCaseStudies } from '../../src/utils/get-mardown/marketing/case-studies';
+
 // _data
 
 // layouts
@@ -16,13 +15,12 @@ import { Page } from '../../src/components';
 // import { TestimonialsMarketing } from '../../src/sections/testimonials';
 
 import {
- 
   MarketingLandingHero,
   MarketingLandingAbout,
   MarketingLandingProcess,
   MarketingLandingServices
 
-} from '../../src/sections/@marketing';
+} from '../../src/@marketing';
 
 // ----------------------------------------------------------------------
 
@@ -35,18 +33,11 @@ export default function MarketingLandingPage({ posts, caseStudies }) {
   return (
     <Page title="Landing - Marketing">
       <MarketingLandingHero />
-
-     
-
       <MarketingLandingAbout />
 
       <MarketingLandingServices />
 
       <MarketingLandingProcess />
-
-    
-
-     
     </Page>
   );
 }
@@ -57,13 +48,3 @@ MarketingLandingPage.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };
 
-// ----------------------------------------------------------------------
-
-export async function getStaticProps() {
-  return {
-    props: {
-      posts: getAllPosts(),
-      caseStudies: getAllCaseStudies(),
-    },
-  };
-}

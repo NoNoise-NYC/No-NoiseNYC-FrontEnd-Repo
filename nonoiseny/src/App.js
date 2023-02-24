@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Signup from './components/Signup'
 import Login from './components/Login'
-import MarketingLandingPage from '../pages/marketing'
+import MarketingLandingPage from './pages/marketing'
 
 // import MainPage from './components/mainPageWithLogin/MainPage';
 // import Community from './components/Community/Community';
