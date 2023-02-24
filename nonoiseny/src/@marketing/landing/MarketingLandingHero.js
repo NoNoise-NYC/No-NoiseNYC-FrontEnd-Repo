@@ -5,6 +5,7 @@ import { styled, alpha } from '@mui/material/styles';
 import { Grid, Stack, Container, Typography, Button, Box } from '@mui/material';
 // components
 import { Iconify, Image } from '../../../components';
+import {useNavigate} from 'react-router-dom';
 
 // ----------------------------------------------------------------------
 
@@ -17,6 +18,8 @@ const RootStyle = styled('div')(({ theme }) => ({
   },
 }));
 
+
+const navigate = useNavigate()
 // ----------------------------------------------------------------------
 
 export default function MarketingLandingHero() {
@@ -41,7 +44,7 @@ export default function MarketingLandingHero() {
                 justifyContent={{ xs: 'center', md: 'unset' }}
                 spacing={3}
               >
-                <Button variant="contained" size="large">
+                <Button variant="contained" size="large" onClick={  navigate('/login')}>
                   Sign Up Today
                 </Button>
 

@@ -34,13 +34,8 @@ const SERVICES = [
     icon: 'https://zone-assets-api.vercel.app/assets/icons/service/ic_service_analysis.svg',
     text: 'Nunc nonummy metus. Donec elit libero',
     path: Routes.marketing.services,
-  },
-  {
-    name: 'Social Marketing',
-    icon: 'https://zone-assets-api.vercel.app/assets/icons/service/ic_service_bullhorn.svg',
-    text: 'Nunc nonummy metus. Donec elit libero',
-    path: Routes.marketing.services,
-  },
+  }
+ 
 ];
 
 const RootStyle = styled('div')(({ theme }) => ({
@@ -66,11 +61,11 @@ export default function MarketingLandingServices() {
           }}
         >
           <Typography variant="overline" sx={{ color: 'text.disabled' }}>
-            Our Services
+            Noise pollution disrupts bronx residents
           </Typography>
 
           <Typography variant="h2" sx={{ mt: 2, mb: 3 }}>
-            We Provide
+            Noise pollution reduces productivity in New York City
           </Typography>
 
        

@@ -95,7 +95,7 @@ export default function SignUp() {
                   <p>{userName}</p>
                   </div>
                   <div>
-                <button type="button" className="btn-success" onClick={()=>{ setUsername(generateUsername())}}>Generate Username</button>
+                <button type="button" className="btn-success" onClick={()=>{ setUsername("wayne")}}>Generate Username</button>
                 </div>
               </div> 
               </Grid>
